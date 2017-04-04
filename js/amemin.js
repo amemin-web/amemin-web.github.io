@@ -3,7 +3,7 @@ $(function () {
   var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-      labels: ["vocal：27%", "Guitar：27%", "Bass：19%", "Drums：17%", "Key & Synth：10%"],
+      labels: ["Vocal：27%", "Guitar：27%", "Bass：19%", "Drums：17%", "Key & Synth：10%"],
       datasets: [{
         backgroundColor: [
           "#2ecc71",

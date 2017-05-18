@@ -41,6 +41,15 @@
   * parts
   * -------------------------------- */
 
+.heading-main {
+    margin-top: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.0rem;
+    font-weight: 100;
+    position: relative;
+    display: inline-block;
+  }
+
   .heading {
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;

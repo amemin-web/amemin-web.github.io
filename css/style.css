@@ -41,15 +41,6 @@
   * parts
   * -------------------------------- */
 
-.heading-main {
-    margin-top: 150px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 4.0rem;
-    font-weight: 100;
-    position: relative;
-    display: inline-block;
-  }
-
   .heading {
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
@@ -66,6 +57,19 @@
     left: 0;
     border-bottom: 1px solid #fff;
   }
+
+  /* margin bottom */
+
+  .row {
+    margin-bottom: 50px !important;
+  }
+
+  .mb25 {
+    margin-bottom: 25px;  
+  }
+
+  /* button & animation */
+
 
   /* button & animation */
 

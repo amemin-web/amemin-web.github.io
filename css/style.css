@@ -58,17 +58,29 @@
     border-bottom: 1px solid #fff;
   }
 
-  /* margin bottom */
-
-  .row {
-    margin-bottom: 50px !important;
-  }
+  /* margin */
 
   .mb25 {
-    margin-bottom: 25px;  
+    margin-bottom: 25px;
   }
 
-  /* button & animation */
+  .mb40 {
+    margin-bottom: 40px !important;
+  }
+
+  .mb50 {
+    margin-bottom: 50px;
+  }
+
+  .mt14 {
+    margin-top: 14px;
+  }
+
+  #grade-box {
+    margin-bottom: auto;
+  }
+
+  /* margin */
 
 
   /* button & animation */

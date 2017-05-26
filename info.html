@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/jquery.fadethis.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
 </head>
 <body>
@@ -29,9 +30,9 @@
       </div>
       <div class="section white">
        <div class="row container">
-         <h2 class="text-m black-text">洋楽・邦楽の比率って？</h2>
-         <p class="text-m black-text">全<span class="text-l black-text">201</span>バンド<br><span class="text-s black-text">※春音、秋音、お楽しみ会（SPFバンドバトル以外）は除く</span></p>
-         <p class="text-s black-text">洋楽：<span class="text-l black-text">107</span>バンド  邦楽：<span class="text-l black-text">94</span>バンド</p>
+         <h2 class="text-m black-text slide-bottom">洋楽・邦楽の比率って？</h2>
+         <p class="text-m black-text slide-bottom">全<span class="text-l black-text">201</span>バンド<br><span class="text-s black-text">※春音、秋音、お楽しみ会（SPFバンドバトル以外）は除く</span></p>
+         <p class="text-s black-text slide-bottom">洋楽：<span class="text-l black-text">107</span>バンド  邦楽：<span class="text-l black-text">94</span>バンド</p>
        </div>
       </div>
       <div class="parallax-container">
@@ -39,11 +40,11 @@
       </div>
       <div class="section white">
        <div class="row container">
-         <h2 class="text-m black-text">男女比率</h2>
-         <p class="grey-text text-darken-3 lighten-3">Girls：<span class="text-l black-text">42</span>% Boys：<span class="text-l black-text">58</span>%</p>
+         <h2 class="text-m black-text slide-bottom">男女比率</h2>
+         <p class="grey-text text-darken-3 lighten-3 slide-bottom">Girls：<span class="text-l black-text">42</span>% Boys：<span class="text-l black-text">58</span>%</p>
          <div class="container-fm">
            <div>
-             <canvas id="myChart-fm"></canvas>
+             <canvas id="myChart-fm" class="slide-bottom"></canvas>
            </div>
          </div>
        </div>
@@ -52,9 +53,9 @@
         <div class="parallax"><img src="images/live/live_08.jpg"></div>
       </div>
       <div class="container-inst">
-        <h2 class="text-m black-text">パート比率</h2>
+        <h2 class="text-m black-text slide-bottom">パート比率</h2>
         <div>
-          <canvas id="myChart-inst"></canvas>
+          <canvas id="myChart-inst" class="slide-bottom"></canvas>
         </div>
       </div>
       <div class="parallax-container">
@@ -62,8 +63,8 @@
       </div>
       <div class="section white mb25">
        <div class="row container">
-         <h2 class="text-m black-text">Q.音団連っていうのがいまいち分からない。</h2>
-         <p class="text-s black-text">A.音団連とは、R.F.U、おたまじゃくしの会、ALBION、Over All Music、そして、アメリカ民謡研究会という、5つの公認音楽サークルで構成される団体です。アンプ等の機材の共有をはじめ合同ライブの開催など、互いに助け合いつつ、音楽に関しては好敵手といった、バランスのとれた関係を築いています。それぞれの団体に個性があるので、新入生の方は新歓期などを利用し、各サークルを回ってみることをおすすめします。また一部の団体はウィリアムズホール２階にあるコモンルームをよく利用しているため普段から交流があり、お互いのサークルのライブを覗きに行くこともしばしばあります。音楽の話題はもちろん、大学の講義の情報共有などを通して友達も増えやすいです。</p>
+         <h2 class="text-m black-text slide-bottom">Q.音団連っていうのがいまいち分からない。</h2>
+         <p class="text-s black-text slide-bottom">A.音団連とは、R.F.U、おたまじゃくしの会、ALBION、Over All Music、そして、アメリカ民謡研究会という、5つの公認音楽サークルで構成される団体です。アンプ等の機材の共有をはじめ合同ライブの開催など、互いに助け合いつつ、音楽に関しては好敵手といった、バランスのとれた関係を築いています。それぞれの団体に個性があるので、新入生の方は新歓期などを利用し、各サークルを回ってみることをおすすめします。また一部の団体はウィリアムズホール２階にあるコモンルームをよく利用しているため普段から交流があり、お互いのサークルのライブを覗きに行くこともしばしばあります。音楽の話題はもちろん、大学の講義の情報共有などを通して友達も増えやすいです。</p>
        </div>
       </div>
       <footer id="gnavi-sp">
@@ -82,5 +83,6 @@
       $('.parallax').parallax();
     });
   </script>
+  <script>$(window).fadeThis();</script>
 </body>
 </html>
